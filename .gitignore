@@ -1,0 +1,21 @@
+# Dependency directories
+node_modules/
+/server/node_modules/
+/client/node_modules/
+
+# Local database data
+/server/data/
+/server/uploads/
+
+# Environments and Keys (commit .env.example only)
+.env
+.env.local
+/server/.env
+!/server/.env.example
+
+# IDE / System files
+.DS_Store
+.vscode/
+.idea/
+dist/
+build/
